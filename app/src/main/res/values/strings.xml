@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Prog_Java_Android2</string>
+    <string name="example_55_4555667_44_867534">example:55.4555667,44.867534</string>
+    <string name="example_380991234567">example: 380991234567</string>
+
+    <string name="map">Finde Target by Coord</string>
+    <string name="tel">Finde Phone number</string>
+    <string name="enter_phone_number">Enter Phone number:</string>
+    <string name="enter_coord">Enter Coord :</string>
+    <string name="https_google_com">https://google.com</string>
+    <string name="go">Go</string>
+    <string name="enter_web_data">Enter Web Data:</string>
 </resources>

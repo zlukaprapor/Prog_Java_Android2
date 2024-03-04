@@ -2,14 +2,28 @@
 <!-- activity_map.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/webLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_coord"
+        android:textSize="18sp"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/mapEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Map Data"
-        android:padding="16dp" />
+        android:layout_below="@id/webLabel"
+        android:layout_marginTop="8dp"
+        android:digits="0123456789.,"
+        android:ems="10"
+        android:hint="@string/example_55_4555667_44_867534"
+        android:inputType="number"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/mapButton"
@@ -17,5 +31,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/mapEditText"
         android:layout_marginTop="16dp"
-        android:text="Submit" />
+        android:text="@string/map" />
 </RelativeLayout>

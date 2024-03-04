@@ -9,7 +9,7 @@
         android:id="@+id/webLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Web Data:"
+        android:text="@string/enter_web_data"
         android:textSize="18sp"
         android:textColor="#000000" />
 
@@ -19,8 +19,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/webLabel"
         android:layout_marginTop="8dp"
-        android:inputType="text"
-        android:hint="Web Data" />
+        android:inputType="textWebEditText"
+        android:hint="@string/https_google_com"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/webButton"
@@ -28,5 +29,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/webEditText"
         android:layout_marginTop="16dp"
-        android:text="Submit" />
+        android:text="@string/go" />
 </RelativeLayout>
